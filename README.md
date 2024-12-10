@@ -1,3 +1,31 @@
-# Mashup-ML
+# YouTube Mashup
+This audio compilation script creates audio mashups by downloading, trimming, and compiling audio from YouTube videos based on a keyword search.
 
-This is a Mashup Generator that requires an artist's name as an input and creates a mashup of a specified number of songs (n) with each segment having a specified duration (s). The mashup is generated using the artist's songs from YouTube. It makes use of different libraries and API calls for fetching, converting, and mixing audio to produce the final mashup.
+## Features
+-Keyword Search: Fetches YouTube videos related to a user-defined keyword.
+-Audio Download: Extracts audio from videos.
+-Trimming: Trims a user-specified duration from the start of each audio.
+-Compilation: Combines trimmed audio clips into a single MP3 file.
+-Custom Output: Allows naming the final output file.
+
+## Requirements
+Install dependencies:
+```bash
+   pip install pytube pydub moviepy
+```
+
+## Usage
+1. Run the script:
+```bash
+   python youtube_mashup.py
+```
+2. Provide inputs:
+-Keyword (e.g., "Lo-fi music").
+-Number of videos (e.g., 5).
+-Trim duration (e.g., 30 seconds).
+-Output file name (e.g., "lofi_mashup").
+
+## Outputs
+The final mashup is saved as an MP3 file (e.g., lofi_mashup.mp3).
+
+
