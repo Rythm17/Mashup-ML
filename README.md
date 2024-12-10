@@ -25,13 +25,13 @@ Install dependencies:
 ```
 2. Provide inputs:
    
-Keyword (e.g., "Lo-fi music").
+   a. Keyword (e.g., "Lo-fi music").
 
-Number of videos (e.g., 5).
+   b. Number of videos (e.g., 5).
 
-Trim duration (e.g., 30 seconds).
+   c. Trim duration (e.g., 30 seconds).
 
-Output file name (e.g., "lofi_mashup").
+   d. Output file name (e.g., "lofi_mashup").
 
 ## Outputs
 The final mashup is saved as an MP3 file (e.g., lofi_mashup.mp3).
