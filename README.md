@@ -2,7 +2,7 @@
 This audio compilation script creates audio mashups by downloading, trimming, and compiling audio from YouTube videos based on a keyword search.
 
 ## Features
--Keyword Search: Fetches YouTube videos related to a user-defined keyword.
+-Keyword Search: Fetches YouTube videos related to a user-defined keyword.\n
 -Audio Download: Extracts audio from videos.
 -Trimming: Trims a user-specified duration from the start of each audio.
 -Compilation: Combines trimmed audio clips into a single MP3 file.
